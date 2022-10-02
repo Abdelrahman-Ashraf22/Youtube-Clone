@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--- Google Icons---->
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Youtube clone</title>
+  </head>
+  <body>
+    <!----Navbar--->
+    <header>
+      <div class="left">
+        <i class="material-icons logo">menu</i>
+        <img src="./imgs/youtube-logo.png" alt="" />
+      </div>
+      <div class="mid">
+        <form action="">
+          <input type="text" placeholder="search" /><button>
+            <i class="material-icons">search</i>
+          </button>
+        </form>
+
+        <i class="material-icons mic">mic</i>
+      </div>
+      <div class="right">
+        <a href=""><i class="material-icons-outlined">video_call</i></a>
+        <a href=""><i class="material-icons-outlined">notifications</i></a>
+        <a href=""> <i class="material-icons">account_circle</i></a>
+      </div>
+    </header>
+
+    <div class="content">
+      <!----Aside--->
+      <aside>
+        <nav>
+          <a href="" class="nav-link active">
+            <i class="material-icons home">home</i>
+            <span id="active">Home</span>
+          </a>
+
+          <a href="" class="nav-link">
+            <i class="material-icons-outlined">explore</i>
+            <span>Explore</span>
+          </a>
+
+          <a href="" class="nav-link">
+            <i class="material-icons">ondemand_video</i>
+            <span>Orignials</span>
+          </a>
+
+          <a href="" class="nav-link">
+            <i class="material-icons-outlined">subscriptions</i>
+            <span>Subscribtions</span>
+          </a>
+
+          <hr />
+          <a href="" class="nav-link">
+            <i class="material-icons-outlined">video_library</i>
+            <span>Library</span>
+          </a>
+
+          <a href="" class="nav-link">
+            <i class="material-icons">history</i>
+            <span>History</span>
+          </a>
+
+          <a href="" class="nav-link">
+            <i class="material-icons-outlined">smart_display</i>
+            <span>Your videos</span>
+          </a>
+          <a href="" class="nav-link">
+            <i class="material-icons-outlined">watch_later</i>
+            <span> Watch later </span>
+          </a>
+
+          <a href="" class="nav-link">
+            <i class="material-icons-outlined">thumb_up</i>
+            <span>Liked videos</span>
+          </a>
+
+          <hr />
+          <p>Subscriptions</p>
+          <div class="icons">
+            <a href="" class="nav-link">
+              <img class="channel-pic" src="./imgs/Profile.jpg" alt="" />
+              <span>Abdo Ashraf</span>
+            </a>
+            <a href="" class="nav-link">
+              <img class="channel-pic" src="./imgs/3.jpg" alt="" />
+              <span>Elzero Web School</span>
+            </a>
+            <a href="" class="nav-link">
+              <img class="channel-pic" src="./imgs/21.jpg" alt="" />
+              <span>Codezilla</span>
+            </a>
+            <a href="" class="nav-link">
+              <img class="channel-pic" src="./imgs/17.jpg" alt="" />
+              <span>ياكش تفلح</span>
+            </a>
+            <a href="" class="nav-link">
+              <img class="channel-pic" src="./imgs/2.jpg" alt="" />
+              <span>Elda7e7 | الدحيح</span>
+            </a>
+            <a href="" class="nav-link">
+              <img class="channel-pic" src="./imgs/7.jpg" alt="" />
+              <span>Ahmed Khaled</span>
+            </a>
+            <a href="" class="nav-link">
+              <img class="channel-pic" src="./imgs/20.jpg" alt="" />
+              <span>Study</span>
+            </a>
+          </div>
+        </nav>
+      </aside>
+
+      <!----Main content--->
+      <main>
+        <div class="videos-container">
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/1.jpg" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/Profile.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">How to be a Graphic Designer</a>
+                <a href="" class="video-creator">Abdo Ashraf</a>
+                <span>1M views ○ 2 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/2.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/2.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">الدحيح | الطيران </a>
+                <a href="" class="video-creator">الدحيح | Elda7e7</a>
+                <span>1.3M views ○ 5 days ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/3.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/3.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">ازاي تبدأ تتعلم برمجة</a>
+                <a href="" class="video-creator">Elzero Web School</a>
+                <span>249K views ○ 5 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/4.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/2.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">الدحيح | الطاعون الأسود</a>
+                <a href="" class="video-creator">الدحيح | Elda7e7</a>
+                <span>900K views ○ 2 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/5.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/5.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title"
+                  >لهذا السبب الراحة تدمر حياتك - مترجم</a
+                >
+                <a href="" class="video-creator">Ismaelovish Mtvn</a>
+                <span>2.6M ciews ○ 1 year ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/6.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/2.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">الدحيح - الوحدة</a>
+                <a href="" class="video-creator">الدحيح | Elda7e7</a>
+                <span>5.7M views ○ 2 years ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/7.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/7.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title"
+                  >10 معلومات غلط عند المصورين المبتدأين
+                </a>
+                <a href="" class="video-creator">Ahmed Khaled</a>
+                <span>1M views ○ 5 Months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/8.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/17.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">ارباحي من الفريلانس؟</a>
+                <a href="" class="video-creator">ياكش تفلح</a>
+                <span>500K views ○ 10 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/9.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/2.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">الشبيه | الدحيح</a>
+                <a href="" class="video-creator">الدحيح | Elda7e7</a>
+                <span>3M views ○ 9 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/10.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/10.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title"
+                  >تعلم الفوتوشوب كامل في ساعتين و نصف | كورس فوتوشوب كامل</a
+                >
+                <a href="" class="video-creator">Amr Atallah - عمرو عطالله</a>
+                <span>1.4M Views ○ 1 year ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/11.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/11.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title"
+                  >12 حاجة ضرورية في بداية الثانوية</a
+                >
+                <a href="" class="video-creator">دروس أونلاين</a>
+                <span>57K views ○ 15 hours ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/12.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/12.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">البلاتفورم | معركة عين جالوت</a>
+                <a href="" class="video-creator">البلاتفورم | Elplatform</a>
+                <span>211K views ○ 2 weeks ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/13.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/7.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">أهم مميزات فوتوشوب 2020</a>
+                <a href="" class="video-creator">Ahmed Khaled</a>
+                <span>3M Views ○ 2 years ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/18.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/17.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">ازاي تصمم بالذكاء الاصطناعي</a>
+                <a href="" class="video-creator">ياكش تفلح</a>
+                <span>900K views ○ 9 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/14.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/7.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">MacBook Pro Vs MacBook Air</a>
+                <a href="" class="video-creator">Ahmed Khaled</a>
+                <span>2.2M Views ○ 3 years ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/15.jpg" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/Profile.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">How to be a programmer</a>
+                <a href="" class="video-creator">Abdo Ashraf</a>
+                <span>1M Views ○ 11 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/177.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/177.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title"
+                  >خطر السوشيال ميديا وضياع العمر</a
+                >
+                <a href="" class="video-creator">ايه المشكلة</a>
+                <span>166K views ○ 7 days ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/16.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/16.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title"
+                  >تمرين تدريبي يمكنك من ترحمة أي جملة بكل أزمنة لانجليزية</a
+                >
+                <a href="" class="video-creator">Sbeata Academy</a>
+                <span>4.1M views ○ 11 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/17.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/17.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title"
+                  >أقوي سيرة ذاتية تقدر تنافس بيها في أي وظيفة</a
+                >
+                <a href="" class="video-creator">ياكش تفلح</a>
+                <span>144K Views ○ 1 year ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/19.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/7.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">وداعا للصور الباهتة</a>
+                <a href="" class="video-creator">Ahmed Khaled</a>
+                <span>2.1M views ○ 9 months ago</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="video" id="extra">
+            <div class="thumbnail">
+              <img class="i" src="./imgs/13.webp" alt="" />
+            </div>
+            <div class="video-details">
+              <div class="creator-img">
+                <img src="./imgs/7.jpg" alt="" />
+              </div>
+              <div class="title">
+                <a href="" class="video-title">أهم مميزات فوتوشوب 2020</a>
+                <a href="" class="video-creator">Ahmed Khaled</a>
+                <span>3M Views ○ 2 years ago</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
